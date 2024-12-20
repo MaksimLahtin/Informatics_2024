@@ -25,7 +25,7 @@ func TaskB(xv []float64) []float64 {
 	}
 	return yValues
 }
-func RunLab4Tasks() {
+func RunLab4() {
 	var xn float64 = 0.26
 	var xk float64 = 0.66
 	var xdel float64 = 0.08

@@ -2,6 +2,7 @@ package lab4
 
 import (
 	"math"
+	"fmt"
 )
 
 func calculateY(x float64) float64 {
@@ -28,7 +29,7 @@ func RunLab4Tasks() {
 	var xn float64 = 0.26
 	var xk float64 = 0.66
 	var xdel float64 = 0.08
-	var x []float64 = []float64{0.1, 0.35, 0.4, 0.55, 0.6}
+	var xv []float64 = []float64{0.1, 0.35, 0.4, 0.55, 0.6}
 
 	var resultA []float64 = TaskA(xn, xk, xdel)
 	fmt.Println(resultA)

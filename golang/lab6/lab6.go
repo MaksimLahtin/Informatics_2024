@@ -28,8 +28,8 @@ func (pers Person) GetWeapon() string {
 	return pers.Weapon
 }
 
-func Lab6() {
-	pudge := NewPerson("Pudge", 30, "Hook")
+func RunLab6() {
+	pudge := NewPerson("Pudge", 20, "Hook")
 	pudge.SetLvl(30)
 	fmt.Println(pudge.GetLvl())
 	fmt.Println(pudge.GetWeapon())

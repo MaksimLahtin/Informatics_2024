@@ -1,11 +1,11 @@
 package lab7
 
 type Car struct {
-	price float64
 	name  string
-	color string
+	price float64
 	model string
-	brand string
+	color string
+	
 }
 
 func (c *Car) GetName() string {

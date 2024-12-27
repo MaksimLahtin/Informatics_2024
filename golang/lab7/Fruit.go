@@ -2,8 +2,9 @@ package lab7
 
 type Fruit struct {
 	Name      string
-	Freshness string
-	Price     float64
+	Price     string
+	Freshness float64
+	Color     string
 }
 
 func (f *Fruit) GetName() string {

@@ -2,8 +2,8 @@ package lab7
 
 type Fruit struct {
 	Name      string
-	Price     string
-	Freshness float64
+	Price     float64
+	Freshness string
 	Color     string
 }
 

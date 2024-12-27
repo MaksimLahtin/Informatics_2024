@@ -1,7 +1,5 @@
 package lab7
 
-import "fmt"
-
 type Fruit struct {
 	Name      string
 	Freshness string
@@ -9,7 +7,7 @@ type Fruit struct {
 }
 
 func (f *Fruit) GetName() string {
-	return m.Name
+	return f.Name
 }
 
 func (f Fruit) GetPrice() float64 {
@@ -17,9 +15,9 @@ func (f Fruit) GetPrice() float64 {
 }
 
 func (f *Fruit) SetPrice(price float64) {
-	m.Price = price
+	f.Price = price
 }
 
 func (m *Fruit) ApplyDiscount(discount float64) {
-	m.Price -= m.Price * discount / 100
+	f.Price -= f.Price * discount / 100
 }

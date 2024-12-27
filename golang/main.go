@@ -1,8 +1,11 @@
 package main
 
 import (
-	     "isuct.ru/informatics2022/lab7"
+	    "fmt"
+
+	    "isuct.ru/informatics2022/lab7"
 )
 func main() {
-        lab7.CompleteLab7()
+        fmt.Println("Лаборатнорная 7:")
+		lab7.Lab7()
 }

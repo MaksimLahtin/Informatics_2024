@@ -17,9 +17,9 @@ func (c *Car) GetPrice() float64 {
 }
 
 func (c *Car) SetPrice(price float64) {
-	c.Price = price
+	c.price = price
 }
 
 func (c *Car) ApplyDiscount(discount float64) {
-	c.Price -= c.Price * discount / 100
+	c.price -= c.price * discount / 100
 }

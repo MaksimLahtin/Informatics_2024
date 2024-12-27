@@ -18,6 +18,6 @@ func (f *Fruit) SetPrice(price float64) {
 	f.Price = price
 }
 
-func (m *Fruit) ApplyDiscount(discount float64) {
+func (f *Fruit) ApplyDiscount(discount float64) {
 	f.Price -= f.Price * discount / 100
 }

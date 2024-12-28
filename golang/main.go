@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	    "fmt"
 
+		"isuct.ru/informatics2022/laba8"
+)
 func main() {
-	fmt.Println("Hello world")
+	    laba8.CompleteLaba8()
 }

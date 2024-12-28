@@ -32,6 +32,6 @@ func CompleteLaba8() {
 	    if errReadFileForLab4 != nil {
 		        log.Fatal(errReadFileForLab4)
 	    }
-	    fmt.Println(lab4.TaskA(result[0], result[1], result[2], result[3], result[4]))
-	    fmt.Println(lab4.TaskB(result[0], result[1], result[5:]))
+	    fmt.Println(lab4.TaskA(xn, xk, xdel))
+	    fmt.Println(lab4.TaskB(xv))
 }

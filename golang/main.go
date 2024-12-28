@@ -7,6 +7,6 @@ import (
 )
 func main() {
 	fmt.Println("Лахтин Максим Сергеевич")
-	lab4.RunLab4Tasks()
+	lab4.RunLab4()
 	lab6.RunLab6()
 }

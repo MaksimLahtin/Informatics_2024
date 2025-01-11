@@ -1,6 +1,6 @@
 package lab7
 
-import fmt
+import "fmt"
 
 func GetTotalPrice(products []Product) float64 {
 	var TotalPrice float64 = 0

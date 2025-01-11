@@ -1,13 +1,6 @@
 package lab7
 
-import "fmt"
-
-type Product interface {
-	GetName() string
-	GetPrice() float64
-	SetPrice(price float64)
-	ApplyDiscount(discount float64)
-}
+import fmt
 
 func GetTotalPrice(products []Product) float64 {
 	var TotalPrice float64 = 0

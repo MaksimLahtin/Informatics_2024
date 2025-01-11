@@ -1,7 +1,5 @@
 package lab7
 
-import "fmt"
-
 type Product interface {
 	GetName() string
 	GetPrice() float64

@@ -25,12 +25,12 @@ func TaskB(xv []float64) []float64 {
 	}
 	return yValues
 }
+
 func RunLab4() {
 	var xn float64 = 0.26
 	var xk float64 = 0.66
 	var xdel float64 = 0.08
 	var xv []float64 = []float64{0.1, 0.35, 0.4, 0.55, 0.6}
-
 	var resultA []float64 = TaskA(xn, xk, xdel)
 	fmt.Println(resultA)
 	var resultB []float64 = TaskB(xv)

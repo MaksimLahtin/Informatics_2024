@@ -11,7 +11,7 @@ func main() {
 		lab7.Lab7()
 }
 	
-	"fmt"
+	
 	"isuct.ru/informatics2022/lab6"
 	"isuct.ru/informatics2022/lab4"
 )
